@@ -16,15 +16,13 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 IZIN=$( curl https://raw.githubusercontent.com/BlueLight123/personal/main/spam | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 clear
-echo -e "${green}Tahniah! Anda Dibenarkan menggunakan SAMVPN...${NC}"
+echo -e "${green}Tahniah! Anda Dibenarkan menggunakan Dinzz Script...${NC}"
 else
 clear
 echo ""
 echo '                            ...                               '
 echo '        Anda Tidak Dibenarkan Menggunakan Script ini!         '
 echo '                            ...                               '
-echo '    Hubungi Saya di Telegram Untuk Mendapatkan Kebenaran!     '
-echo '                        t.me/sam_sfx     '
 sleep 20
 exit 0
 fi
@@ -48,5 +46,5 @@ for ((i=1;i<=$loop;i++)); do curl --request POST \
   "force": false,
   "price": "0.00"
 }'
-sleep 20
+sleep 50
 done
