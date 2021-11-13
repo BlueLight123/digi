@@ -21,7 +21,6 @@ echo -e "\e[1;31m* [5]\e[0m \e[1;32m: Unlimited RM1\e[0m"
 echo -e "\e[1;31m* [6]\e[0m \e[1;32m: Unlimited RM35\e[0m"
 echo -e "\e[1;31m* [7]\e[0m \e[1;32m: Extend 365Days\e[0m"
 echo -e "\e[1;31m* [8]\e[0m \e[1;32m: SPAM KOUTA (6GB)\e[0m"
-echo -e "\e[1;31m* [9]\e[0m \e[1;32m: SPAM CREDIT\e[0m"
 echo -e ""
 echo -e ""
 read -p "        Select From Options [1-9 or x]: " digi
