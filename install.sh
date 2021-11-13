@@ -30,7 +30,7 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 IZIN=$( curl https://raw.githubusercontent.com/BlueLight123/digi/main/spam | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 clear
-echo -e "${green}Tahniah! Anda Dibenarkan menggunakan Dinzz Script...${NC}"
+echo -e "${green}Tahniah! Anda Dibenarkan menggunakan Script By Dinzz...${NC}"
 sleep 5
 else
 clear
