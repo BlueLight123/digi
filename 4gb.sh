@@ -13,7 +13,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
-IZIN=$( curl https://raw.githubusercontent.com/syfqsam37/personal/main/spam | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/BlueLight123/digi/main/spam | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 clear
 echo -e "${green}Tahniah! Anda Dibenarkan menggunakan SAMVPN...${NC}"
@@ -23,8 +23,6 @@ echo ""
 echo '                            ...                               '
 echo '        Anda Tidak Dibenarkan Menggunakan Script ini!         '
 echo '                            ...                               '
-echo '    Hubungi Saya di Telegram Untuk Mendapatkan Kebenaran!     '
-echo '                        t.me/sam_sfx     '
 sleep 20
 exit 0
 fi
