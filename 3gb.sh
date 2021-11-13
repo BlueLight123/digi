@@ -23,8 +23,6 @@ echo ""
 echo '                            ...                               '
 echo '        Anda Tidak Dibenarkan Menggunakan Script ini!         '
 echo '                            ...                               '
-echo '    Hubungi Saya di Telegram Untuk Mendapatkan Kebenaran!     '
-echo '                        t.me/sam_sfx     '
 sleep 20
 exit 0
 fi
