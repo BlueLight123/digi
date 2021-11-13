@@ -60,15 +60,15 @@ sleep 2
 
 # download script
 cd /usr/bin
-wget -O digi "https://raw.githubusercontent.com/syfqsam37/personal/main/digi.sh"
-wget -O 3gb "https://raw.githubusercontent.com/syfqsam37/personal/main/3gb.sh"
-wget -O 6gb "https://raw.githubusercontent.com/syfqsam37/personal/main/6gb.sh"
-wget -O cookie "https://raw.githubusercontent.com/syfqsam37/personal/main/cookie.sh"
-wget -O 4gb "https://raw.githubusercontent.com/syfqsam37/personal/main/4gb.sh"
-wget -O extend "https://raw.githubusercontent.com/syfqsam37/personal/main/extend.sh"
-wget -O unlimited-1 "https://raw.githubusercontent.com/syfqsam37/personal/main/unlimited-1.sh"
-wget -O unlimited-35 "https://raw.githubusercontent.com/syfqsam37/personal/main/unlimited-35.sh"
-wget -O spam "https://raw.githubusercontent.com/syfqsam37/personal/main/spam.sh"
+wget -O digi "https://raw.githubusercontent.com/BlueLight123/digi/main/digi.sh"
+wget -O 3gb "https://raw.githubusercontent.com/BlueLight123/digi/main/3gb.sh"
+wget -O 6gb "https://raw.githubusercontent.com/BlueLight123/digi/main/6gb.sh"
+wget -O cookie "https://raw.githubusercontent.com/BlueLight123/digi/main/cookie.sh"
+wget -O 4gb "https://raw.githubusercontent.com/BlueLight123/digi/main/4gb.sh"
+wget -O extend "https://raw.githubusercontent.com/BlueLight123/digi/main/extend.sh"
+wget -O unlimited-1 "https://raw.githubusercontent.com/BlueLight123/digi/main/unlimited-1.sh"
+wget -O unlimited-35 "https://raw.githubusercontent.com/BlueLight123/digi/main/unlimited-35.sh"
+wget -O spam "https://raw.githubusercontent.com/BlueLight123/digi/main/spam.sh"
 chmod +x digi
 chmod +x 3gb
 chmod +x 6gb
